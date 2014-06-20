@@ -15,7 +15,7 @@ on fs
 
 on post-fs
     # mount touchscreen driver
-    insmod /system/lib/modules/qt602240.ko
+    insmod /system/lib/modules/qt602240-ypg1.ko
 
 on boot
     write /dev/graphics/fb3 1

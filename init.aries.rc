@@ -39,7 +39,7 @@ on fs
     chmod 770 /efs/imei
 
 # insmod the touchscreen driver
-    insmod  /system/lib/modules/qt602240.ko
+    insmod  /system/lib/modules/qt602240-ypg1.ko
 
 # insmod the wifi driver
     insmod  /system/lib/modules/bcmdhd.ko
