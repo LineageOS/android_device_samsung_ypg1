@@ -110,7 +110,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
  
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := cyanogenmod_ypg1_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/ypg13.0
+TARGET_KERNEL_SOURCE := kernel/samsung/aries
 
 # WIFI defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
